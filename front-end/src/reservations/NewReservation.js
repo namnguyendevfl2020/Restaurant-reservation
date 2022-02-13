@@ -38,7 +38,7 @@ export default function NewReservation({ loadDashboard}) {
 		return () => abortController.abort();
     }
     return (
-hoai        <ReservationForm 
+        <ReservationForm 
         handleSubmit = {handleSubmit}
         errors = {errors}
         apiError = {apiError}
